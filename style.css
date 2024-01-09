@@ -1,0 +1,33 @@
+.main-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #25ab72;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    color: #fff;
+}
+.logo-content{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 20%;
+}
+.buisness-content{
+    float: right !important;
+    width: 80%;
+}
+ .buisness-content .h2 {
+    color: #25ab72 !important; 
+}
+
+ .buisness-content p {
+    color: blue; 
+}
+.horizontal-line{
+    /* color: orange; */
+    border: 2px solid orange;
+}
