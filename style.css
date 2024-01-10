@@ -3,25 +3,38 @@
     justify-content: center;
     margin-top: 20px;
     background-color: #25ab72;
-    border: 1px solid black;
     width: 100%;
     text-align: center;
-    height: 100%;
+    height: 80px;
     color: #fff;
+}
+.header{
+    padding-top: 1%;
+}
+.display-content{
+    /* border: 1px solid #25ab72; */
+    border-left: 1px solid #25ab72;
+    border-right: 1px solid #25ab72;
+    border-bottom: 1px solid #25ab72;
 }
 .logo-content{
     display: flex;
     flex-direction: row;
 }
 .logo{
-    width: 20%;
+    width: 15%;
+}
+ .img img{
+    width: 12vw !important;
+    height: 70px;
 }
 .buisness-content{
     float: right !important;
     width: 80%;
 }
  .buisness-content .h2 {
-    color: #25ab72 !important; 
+    color: green !important; 
+    font-weight: 700;
 }
 
  .buisness-content p {
@@ -33,8 +46,8 @@
 
 /* form section*/
 .form-section{
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 .formControl{
     padding: 10px !important;
@@ -76,24 +89,9 @@
 #radio-btn{
     margin-left: 20% !important;
 }
-
-/* scroolable table*/
-
-/* .table-content{
-    height: 300px;
-} */
-/* .thead-fixed {
-    position: sticky;
-    top: 0;
-    background-color: #fff; 
-    z-index: 1;
-    border: 1px solid black !important;
+#radio-btn2{
+    margin-left: 2%;
 }
-.table-responsive {
-    overflow-x: auto;
-    max-height: 400px; 
-} */
-
 .totalCheck {
     border: 1px solid #25ab72;
     height: 30px;
@@ -109,9 +107,13 @@
 }
 
 .click-box div {
-    display: block !important; /* Ensure the <div> containing <i> is a block element */
+    display: block !important; 
 }
 
-/* span i{
-    font-weight: 100;
-} */
+.sub-form{
+    margin: 2%;
+border: 1px solid #25ab72;
+}
+.button-area{
+    text-align: center;
+}
