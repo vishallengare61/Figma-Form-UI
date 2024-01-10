@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!--bootstrap CDN Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+
+    <!-- fontawesome CDN link -->
+    <link
+    rel="stylesheet"
+     
+    href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+     
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+     
+    crossorigin="anonymous">
+
 </head>
 <body>
 
@@ -28,8 +41,295 @@
             </div>
            </div>
            <hr class="horizontal-line">
+           <div class="form-section">
+            <div class="general-info">
+                <form>
+                    <p class="form-header">General Informatin</p>
 
+                    <div class="formControl">
+                        <label for="nameOfOfficer">Name Of Inspecting Officer</label>
+                        <input type="text" class="form-control" name="nameOfOfficer" id=""  disabled>
+                    </div>
+
+                    <div class="formControl">
+                        <label for="designationOfOfficer">Designation Of Inspecting Officer</label>
+                        <input type="text" class="form-control" name="designationOfOfficer" id="" >
+                    </div>
+
+                    <div class="formControl">
+                        <label for="dateOfInspection">Date of Inspection</label>
+                        <input type="date" class="form-control" name="dateOfInspection" id="" >
+                    </div>
+
+
+                    <div class="formControl">
+                        <label for="nameOfIA" style="display: block;">Name Of IA</label>
+                        <div class="dropdown">
+                            <button class="btn   dropdown-toggle dropdown-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                    </div>
+
+                    <div class="formControl">
+                        <label for="nameOfCBBO" style="display: block;">Name Of CBBO/VCO</label>
+                        <div class="dropdown">
+                            <button class="btn  dropdown-toggle dropdown-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                    </div>
+
+                    <div class="formControl">
+                        <label for="stateUT" style="display: block;">State/UT</label>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle dropdown-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                    </div>
+
+                    <div class="formControl">
+                        <label for="district" style="display: block;">District</label>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle dropdown-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                    </div>
+
+                    <div class="formControl">
+                        <label for="block" style="display: block;">Block</label>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle dropdown-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                    </div>
+
+                    <div class="formControl">
+                        <label for="nameOFFPO" style="display: block;">Name of FPO</label>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle dropdown-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                    </div>
+
+                    <div class="formControl">
+                        <label for="FPOAddress" style="display: block;">FPO Address</label>
+                        <input type="text" class="form-control" name="FPOAddress" id="" >
+                    </div>
+
+                    <div class="formControl">
+                        <label for="MISAddress" style="display: block;">Is the above mentioned address correct/available in MIS?</label>
+                        <div class="radio-btn">
+                            <input type="radio" name="MIS" id="" value="yes" > Yes
+                            <input type="radio" name="MIS" id="radio-btn" value="no"> No
+                        </div>
+                       
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="general-info" style="margin-top: 25px;">
+                <form>
+                    <p class="form-header">BoD Details</p>
+
+                    <div class="formControl">
+                        <label for="BoDDetails" style="display: block;">BoD formation details availabel?</label>
+                        <div class="radio-btn">
+                            <input type="radio" name="BoD" id="" value="yes" > Yes
+                            <input type="radio" name="BoD" id="radio-btn" value="no"> No
+                        </div>
+                    </div>
+                    <div class=" formControl table-responsive">
+                        <label for="table" style="padding-bottom: 10px;">Number Of BoD members</label>
+
+                        <table class="table table-bordered border-success">
+                            <thead class="thead-fixed">
+                                <tr>
+                                    <th scope="col">Total</th>
+                                    <th scope="col" class="table-head">
+                                        <div class="totalCheck">
+                                            <span>0</span>
+                                        </div>
+                                        <div class="click-box">
+                                            <div><i>Click the box to see total</i></div>
+                                        </div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            
+                            <tbody>
+                              <tr>
+                                <td >General</td>
+                                <td>
+                                    <i class="fas fa-plus"></i>  
+                                    <span style="padding-right: 10px; padding-left: 10px;"> 0 </span>
+                                    <i class="fas fa-minus"></i> 
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>SC</td>
+                                <td>
+                                    <i class="fas fa-plus"></i>  
+                                    <span style="padding-right: 10px; padding-left: 10px;"> 0 </span>
+                                    <i class="fas fa-minus"></i> 
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>ST</td>
+                                <td>
+                                    <i class="fas fa-plus"></i>  
+                                    <span style="padding-right: 10px; padding-left: 10px;"> 0 </span>
+                                    <i class="fas fa-minus"></i> 
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>OBC</td>
+                                <td>
+                                    <i class="fas fa-plus"></i>  
+                                    <span style="padding-right: 10px; padding-left: 10px;"> 0 </span>
+                                    <i class="fas fa-minus"></i> 
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>Women</td>
+                                <td>
+                                    <i class="fas fa-plus"></i>  
+                                    <span style="padding-right: 10px; padding-left: 10px;"> 0 </span>
+                                    <i class="fas fa-minus"></i> 
+                                </td>
+                              </tr>
+                              <tr>
+                            </tbody>
+                          </table>
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="general-info" style="margin-top: 25px;">
+                <form>
+                    <p class="form-header">Compliances</p>
+
+                    <div class="formControl">
+                        <label for="BoDDetails" style="display: block;">Timely filling of GST return</label>
+                        <div class="radio-btn">
+                            <input type="radio" name="GSTReturn" id="" value="yes" > Yes
+                            <input type="radio" name="GSTReturn" id="radio-btn" value="no"> No
+                        </div>
+                    </div>
+                    <div class="formControl">
+                        <label for="BoDDetails" style="display: block;">Quarterly Board meetings</label>
+                        <div class="radio-btn">
+                            <input type="radio" name="meetings" id="" value="yes" > Yes
+                            <input type="radio" name="meetings" id="radio-btn" value="no"> No
+                        </div>
+                    </div>
+                    <div class="formControl">
+                        <label for="BoDDetails" style="display: block;">Audited financial statment</label>
+                        <div class="radio-btn">
+                            <input type="radio" name="fstatment" id="" value="yes" > Yes
+                            <input type="radio" name="fstatment" id="radio-btn" value="no"> No
+                        </div>
+                    </div>
+                    <div class="formControl">
+                        <label for="BoDDetails" style="display: block;">AGM meetings</label>
+                        <div class="radio-btn">
+                            <input type="radio" name="AGM" id="" value="yes" > Yes
+                            <input type="radio" name="AGM" id="radio-btn" value="no"> No
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="general-info" style="margin-top: 25px;">
+                <form>
+                    <p class="form-header">Details of CEO appointment</p>
+
+                    <div class="formControl">
+                        <label for="CEOAppointment">Name Of CEO</label>
+                        <input type="text" class="form-control" name="CEOAppointment" id="" >
+                    </div>
+
+                    <div class="formControl">
+                        <label for="BoDDetails" style="display: block;">is the above mentioned name is correct or availabel in MIS?</label>
+                        <div class="radio-btn">
+                            <input type="radio" name="CEOname" id="" value="yes" > Yes
+                            <input type="radio" name="CEOname" id="radio-btn" value="no"> No
+                        </div>
+                    </div>
+                    <div class="formControl">
+                        <label for="BoDDetails" style="display: block;">CEO offer letter available</label>
+                        <div class="radio-btn">
+                            <input type="radio" name="offerLetter" id="" value="yes" > Yes
+                            <input type="radio" name="offerLetter" id="radio-btn" value="no"> No
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="general-info" style="margin-top: 25px;">
+                <form>
+                    <p class="form-header">Details of accountant appointment</p>
+
+                    <div class="formControl">
+                        <label for="accountantName">Name Of Accountant</label>
+                        <input type="text" class="form-control" name="accountantName" id="" >
+                    </div>
+
+                    <div class="formControl">
+                        <label for="BoDDetails" style="display: block;">is the above mentioned name is correct or availabel in MIS?</label>
+                        <div class="radio-btn">
+                            <input type="radio" name="CEOname" id="" value="yes" > Yes
+                            <input type="radio" name="CEOname" id="radio-btn" value="no"> No
+                        </div>
+                    </div>
+                    <div class="formControl">
+                        <label for="BoDDetails" style="display: block;">Accountant offer letter available</label>
+                        <div class="radio-btn">
+                            <input type="radio" name="offerLetter" id="" value="yes" > Yes
+                            <input type="radio" name="offerLetter" id="radio-btn" value="no"> No
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+
+            
+           </div>
            
+
+
 
 
         </div>

@@ -28,6 +28,90 @@
     color: blue; 
 }
 .horizontal-line{
-    /* color: orange; */
     border: 2px solid orange;
 }
+
+/* form section*/
+.form-section{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.formControl{
+    padding: 10px !important;
+}
+.general-info{
+    justify-content: center;
+    border: 1px solid #25ab72;
+    width: 100%;
+    background-color: rgb(234 247 243);
+}
+.form-header{
+    background-color: #25ab72;
+    color: #fff;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.dropdown-btn {
+    width: 100%; 
+    border: 1px solid rgb(201, 198, 198);
+  }
+.dropdown{
+    background-color: #fff;
+}
+  .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 90%;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    background-color: #fff !important;
+}
+.dropdown-menu{
+    width: 100%;
+}
+#radio-btn{
+    margin-left: 20% !important;
+}
+
+/* scroolable table*/
+
+/* .table-content{
+    height: 300px;
+} */
+/* .thead-fixed {
+    position: sticky;
+    top: 0;
+    background-color: #fff; 
+    z-index: 1;
+    border: 1px solid black !important;
+}
+.table-responsive {
+    overflow-x: auto;
+    max-height: 400px; 
+} */
+
+.totalCheck {
+    border: 1px solid #25ab72;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+}
+
+.table-head {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.click-box div {
+    display: block !important; /* Ensure the <div> containing <i> is a block element */
+}
+
+/* span i{
+    font-weight: 100;
+} */
